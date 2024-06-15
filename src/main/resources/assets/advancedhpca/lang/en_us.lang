@@ -1,0 +1,24 @@
+# For v0.0.1
+
+## HPCA Components
+# Compute
+advancedhpca.machine.hpca_compute_luv.name=HPCA Computation Component(LuV)
+advancedhpca.machine.hpca_compute_zpm.name=HPCA Computation Component(ZPM)
+advancedhpca.machine.hpca_compute_uv.name=HPCA Computation Component(UV)
+advancedhpca.machine.hpca_compute_uhv.name=HPCA Computation Component(UHV)
+advancedhpca.machine.hpca_compute_uev.name=HPCA Computation Component(UEV)
+advancedhpca.machine.hpca_compute_uiv.name=HPCA Computation Component(UIV)
+advancedhpca.machine.hpca_compute_uxv.name=HPCA Computation Component(UXV)
+advancedhpca.machine.hpca_compute_opv.name=HPCA Computation Component(OpV)
+advancedhpca.machine.hpca_compute_max.name=HPCA Computation Component(MAX)
+
+# Cooler
+advancedhpca.machine.hpca_cooler_luv.name=HPCA Cooling Component(LuV)
+advancedhpca.machine.hpca_cooler_zpm.name=HPCA Cooling Component(ZPM)
+advancedhpca.machine.hpca_cooler_uv.name=HPCA Cooling Component(UV)
+advancedhpca.machine.hpca_cooler_uhv.name=HPCA Cooling Component(UHV)
+advancedhpca.machine.hpca_cooler_uev.name=HPCA Cooling Component(UEV)
+advancedhpca.machine.hpca_cooler_uiv.name=HPCA Cooling Component(UIV)
+advancedhpca.machine.hpca_cooler_uxv.name=HPCA Cooling Component(UXV)
+advancedhpca.machine.hpca_cooler_opv.name=HPCA Cooling Component(OpV)
+advancedhpca.machine.hpca_cooler_max.name=HPCA Cooling Component(MAX)

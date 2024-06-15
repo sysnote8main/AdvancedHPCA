@@ -109,6 +109,22 @@ repositories {
             includeGroup 'curse.maven'
         }
     }
+    maven {
+        name 'Cleanroom Maven'
+        url 'https://maven.cleanroommc.com'
+    }
+    maven {
+        name 'BlameJared Maven'
+        url 'https://maven.blamejared.com'
+    }
+    maven {
+        name 'GTNH Maven'
+        url 'https://nexus.gtnewhorizons.com/repository/public/'
+    }
+    maven {
+        name 'GTCEu Maven'
+        url 'https://maven.gtceu.com'
+    }
     mavenLocal() // Must be last for caching to work
 }
 def mixinbooter = "zone.rong:mixinbooter:9.1"
@@ -121,6 +137,8 @@ dependencies {
 
     // Example of deobfuscating a dependency
     // implementation rfg.deobf('curse.maven:had-enough-items-557549:4543375')
+    api(rfg.deobf("codechicken:codechickenlib:3.2.3.358")) // CodeChickenLib 3.2.3.358
+    implementation(rfg.deobf("curse.maven:gregtech-ce-unofficial-557242:5322654")) // GregTechCEu 2.8.8b
 
     if (project.use_mixins.toBoolean()) {
         implementation mixinbooter

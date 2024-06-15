@@ -1,0 +1,24 @@
+# For v0.0.1
+
+## HPCA Components
+# Compute
+advancedhpca.machine.hpca_compute_luv.name=HPCA計算コンポーネント(LuV)
+advancedhpca.machine.hpca_compute_zpm.name=HPCA計算コンポーネント(ZPM)
+advancedhpca.machine.hpca_compute_uv.name=HPCA計算コンポーネント(UV)
+advancedhpca.machine.hpca_compute_uhv.name=HPCA計算コンポーネント(UHV)
+advancedhpca.machine.hpca_compute_uev.name=HPCA計算コンポーネント(UEV)
+advancedhpca.machine.hpca_compute_uiv.name=HPCA計算コンポーネント(UIV)
+advancedhpca.machine.hpca_compute_uxv.name=HPCA計算コンポーネント(UXV)
+advancedhpca.machine.hpca_compute_opv.name=HPCA計算コンポーネント(OpV)
+advancedhpca.machine.hpca_compute_max.name=HPCA計算コンポーネント(MAX)
+
+# Cooler
+advancedhpca.machine.hpca_cooler_luv.name=HPCA冷却コンポーネント(LuV)
+advancedhpca.machine.hpca_cooler_zpm.name=HPCA冷却コンポーネント(ZPM)
+advancedhpca.machine.hpca_cooler_uv.name=HPCA冷却コンポーネント(UV)
+advancedhpca.machine.hpca_cooler_uhv.name=HPCA冷却コンポーネント(UHV)
+advancedhpca.machine.hpca_cooler_uev.name=HPCA冷却コンポーネント(UEV)
+advancedhpca.machine.hpca_cooler_uiv.name=HPCA冷却コンポーネント(UIV)
+advancedhpca.machine.hpca_cooler_uxv.name=HPCA冷却コンポーネント(UXV)
+advancedhpca.machine.hpca_cooler_opv.name=HPCA冷却コンポーネント(OpV)
+advancedhpca.machine.hpca_cooler_max.name=HPCA冷却コンポーネント(MAX)
