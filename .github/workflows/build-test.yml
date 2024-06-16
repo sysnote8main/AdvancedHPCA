@@ -2,9 +2,9 @@ name: Simple Build Action
 
 on:
   push:
-    branches: [ "ghac-test" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "ghac-test" ]
+    branches: [ "master" ]
 
 jobs:
   build:
