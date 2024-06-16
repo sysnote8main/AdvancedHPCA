@@ -28,9 +28,12 @@ jobs:
         env:
           CACHE_PREFIX_VAR: weekly-cache-${{ steps.cache-key.outputs.week }}
         with:
+          cache-read-only: false
           gradle-home-cache-includes: |
             caches
             caches/retro_futura_gradle
+            jdks
+            wrapper
   
       - name: Build with Gradle Wrapper
         run: ./gradlew build
